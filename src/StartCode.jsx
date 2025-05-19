@@ -1,7 +1,4 @@
-/*Refactor the UserDashboard below into multiple smaller, reusable components such as 
-UserList, SearchBar, Pagination, and UserModal. 
-Move logic and UI out of the main component and make it clean and readable.
-*/
+// Refactor the UserDashboard below into multiple smaller, reusable components such as UserList, SearchBar, Pagination, and UserModal. Move logic and UI out of the main component and make it clean and readable.
 import React from "react";
 import axios from "axios";
 let users = [];

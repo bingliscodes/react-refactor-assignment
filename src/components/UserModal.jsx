@@ -1,4 +1,9 @@
-export default function UserModal({ selectedUser, closeModal }) {
+export default function UserModal({ selectedUser, onSelectUser, toggleModal }) {
+  const closeModal = () => {
+    onSelectUser(null);
+    toggleModal();
+  };
+
   return (
     <div className="modal">
       <h3>{selectedUser.name}</h3>
